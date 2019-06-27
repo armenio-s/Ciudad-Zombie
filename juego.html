@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="stylesheet" href="css/juego.css">
+
+<script src='js/resources.js'> </script>
+<script src='js/jugador.js'> </script>
+<script src='js/dibujante.js'> </script>
+<script src='js/obstaculo.js'> </script>
+<script src='js/enemigo.js'> </script>
+<script src='js/zombie_caminante.js'></script>
+<script src='js/zombie_conductor.js'></script>
+<script src='js/juego.js'> </script>
+<script src='js/audio.js'> </script>
+</head>
+<body>
+<div class="botones">
+    <button class="boton" id="silenciar" onclick="pausarAudio()">Silenciar audio</button>
+    <button class="boton" id="activar" onclick="reproducirAudio()">Activar audio</button>
+    <button onClick="window.location.reload()" class="boton" id="reiniciar">Reiniciar</button>
+    <button onclick="window.location.href='index.html'" class="boton" id="volver">Volver al men&uacute</button>
+</div>
+<audio playsinline id="musica" src="audio/musica-juego.mp3" autoplay loop></audio>
+</body>
+</html>

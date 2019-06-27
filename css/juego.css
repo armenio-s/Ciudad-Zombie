@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600');
+
+body {
+  background-image: url('../imagenes/fondo.png');
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+canvas {
+  margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+}
+
+.botones {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#silenciar {
+  margin-right: 5px;
+  width: 139px;
+}
+
+#activar {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 129px;
+}
+
+#reiniciar {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 129px;
+}
+
+#volver {
+  margin-left: 5px;
+}
+
+.boton {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #000;
+  color: #66ff66;
+  padding: 7px;
+}
+
