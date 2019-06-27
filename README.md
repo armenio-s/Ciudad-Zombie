@@ -1,6 +1,8 @@
-# Superhero Pixel Art
+# Ciudad Zombie
 
 Juego experimental de arcade con temática zombie. ¡Escapa en auto del apocalipsis zombie!
+
+Link al sitio web: https://armenio-s.github.io/Ciudad-Zombie/
 
 ## Desarrollado con
 
